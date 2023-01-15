@@ -141,7 +141,7 @@ main {
 .features-for-others div {
   margin-left: 15px;
   padding-top: 10px;
-  width: 80%;
+  width: 100%;
 }
 
 .features-love-title {
@@ -364,6 +364,7 @@ footer p {
   }
   .features-love-img{
     margin-top: 350px;
+    width: 100%;
   }
   .some-fact {
     height: 120px;
@@ -402,7 +403,8 @@ footer p {
   .sponsors{
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 170px;
     gap: 50px;
   }
   .features-love-img button {
