@@ -74,15 +74,15 @@ nav {
 main {
   background: white;
   width: 100%;
- 
+
 }
 
 .features {
   height: 480px;
   width: 100%;
   display: flex;
- justify-content: center;
- align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .features-img {
@@ -99,11 +99,13 @@ main {
   padding-top: 370px;
   padding-left: 25px;
 }
-.features-description{
+
+.features-description {
   color: #727272;
   margin-top: 50px;
   margin-bottom: 10px;
 }
+
 .features-btn {
   width: 150px;
   height: 54px;
@@ -114,9 +116,63 @@ main {
   border-radius: 8px;
   font-size: 17px;
 }
-.features-gold{
+
+.features-gold {
   color: #FF900E;
 }
-.quick-list{
+
+.quick-list {
   color: #727272;
+}
+
+/* features that you will love and enjoy */
+.features-for-others {
+  width: 85%;
+  height: 670px;
+  margin: 60px auto;
+  display: flex;
+}
+.features-love {
+  height: 370px;
+  width: 100%;
+ margin-top: 38px;
+}
+.features-for-others div{
+  margin-left: 15px;
+  padding-top: 10px;
+  width:80%;
+}
+.features-love-title{
+ padding-left: 15px;
+ border-left: 3px solid rgb(229, 168, 16);
+}
+.features-love-desc{
+  color: #727272;
+  padding: 10px 0;
+}
+.features-items div{
+  width: 406px;
+height: 111px;
+  
+}
+.item-desc{
+  color: #4f4e4e;
+}
+.features-love-img{
+  background-image: url(images/architect.png);
+background-size: cover;
+}
+.features-love-img button{
+  height: 110px;
+  width: 200px;
+ padding: 30px;
+margin-top: 550px;
+transform: translate(-50%, 60%);
+ background-color: rgb(187, 135, 3);
+ border: none;
+ color: white;
+}
+.button{
+  font-size: 2.5rem;
+  font-weight: 750px;
 }
